@@ -31,7 +31,6 @@ import Copyright from './components/Copyright'
 export default function Home() {
 
 	const [loading, setLoading] = useState(true)
-
 	setTimeout(() => {
 		setLoading(false)
 	}, 1000);

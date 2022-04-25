@@ -1,4 +1,7 @@
 import React from 'react'
+import '../../styles/fontawesome.min.module.css'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faFacebook, faTwitter, faLinkedin, faPinterest } from "@fortawesome/free-brands-svg-icons"
 
 const Footer = () => {
     return (
@@ -13,19 +16,19 @@ const Footer = () => {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco consectetur laboris.</p>
                             <ul className="footer-social">
                                 <li>
-                                    <a href="#"> <i className="fab fa-facebook-f"></i>
+                                    <a href="#"><i className="fab fa-facebook-f" ><FontAwesomeIcon icon={faFacebook} size="lg" /></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#"> <i className="fab fa-twitter"></i>
+                                    <a href="#"> <i className="fab fa-twitter"><FontAwesomeIcon icon={faTwitter} size="lg" /></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#"> <i className="fab fa-pinterest"></i>
+                                    <a href="#"> <i className="fab fa-pinterest"><FontAwesomeIcon icon={faPinterest} size="lg" /></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#"> <i className="fab fa-linkedin"></i>
+                                    <a href="#"> <i className="fab fa-linkedin"><FontAwesomeIcon icon={faLinkedin} size="lg" /></i>
                                     </a>
                                 </li>
                             </ul>
