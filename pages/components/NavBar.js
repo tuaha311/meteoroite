@@ -3,8 +3,9 @@ import Image from 'next/image'
 import '../../styles/responsive.module.css'
 import '../../styles/fontawesome.min.module.css'
 import "./navBar.module.css"
+import Link from 'next/link';
 
-const NavBar = () => {
+const NavBar = (props) => {
 
 	const [scrollPosition, setScrollPosition] = useState(0);
 	const handleScroll = () => {
@@ -23,15 +24,15 @@ const NavBar = () => {
 	}, []);
 	return (
 		<>
-			{scrollPosition == 0 ? (<div className="navbar-area">
+			{scrollPosition == 0 ? (<div className="navbar-area" style={{ height: "5rem;", backgroundColor: `${props.color}` }}>
 				<div className="techmax-responsive-nav index-navber-responsive">
 					<div className="container">
 						<div className="techmax-responsive-menu">
 							<div className="logo">
-								<a href="index.html">
+								<Link href="\">
 									<img src="/images/logo-black.png" className="white-logo" alt="logo" />
-									<img src="/images/logo-black.png" className="black-logo" alt="logo" />
-								</a>
+									{/* <img src="/images/logo-black.png" className="black-logo" alt="logo" /> */}
+								</Link>
 							</div>
 						</div>
 					</div>
@@ -39,14 +40,14 @@ const NavBar = () => {
 				<div className="techmax-nav index-navber">
 					<div className="container">
 						<nav className="navbar navbar-expand-md navbar-light">
-							<a className="navbar-brand" href="index.html">
+							<a className="navbar-brand" href="\">
 								<img src="/images/logo-black.png" className="white-logo" alt="logo" />
 								<img src="/images/logo-black.png" className="black-logo" alt="logo" />
 							</a>
 							<div className="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
 								<ul className="navbar-nav">
 									<li className="nav-item">
-										<a href="index.html" className="nav-link">Home</a>
+										<a href="\" className="nav-link">Home</a>
 									</li>
 									<li className="nav-item">
 										<a href="about.html" className="nav-link">About Us</a>
@@ -55,7 +56,7 @@ const NavBar = () => {
 										<a href="#" className="nav-link">Services <i className="fas fa-chevron-down"></i></a>
 										<ul className="dropdown-menu">
 											<li className="nav-item">
-												<a href="services.html" className="nav-link">Services</a>
+												<Link href="services" className="nav-link">Services</Link>
 											</li>
 											<li className="nav-item">
 												<a href="single-services.html" className="nav-link">Services Details</a>
@@ -119,7 +120,7 @@ const NavBar = () => {
 							<div className="container">
 								<div className="techmax-responsive-menu">
 									<div className="logo">
-										<a href="index.html">
+										<a href="\">
 											<img src="/images/logo-black.png" className="white-logo" alt="logo" />
 											<img src="/images/logo-black.png" className="black-logo" alt="logo" />
 										</a>
@@ -130,14 +131,14 @@ const NavBar = () => {
 						<div className="techmax-nav index-navber">
 							<div className="container">
 								<nav className="navbar navbar-expand-md navbar-light">
-									<a className="navbar-brand" href="index.html">
+									<a className="navbar-brand" href="\">
 										<img src="/images/logo-black.png" className="white-logo" alt="logo" />
 										<img src="/images/logo-black.png" className="black-logo" alt="logo" />
 									</a>
 									<div className="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
 										<ul className="navbar-nav">
 											<li className="nav-item">
-												<a href="index.html" className="nav-link">Home</a>
+												<a href="\" className="nav-link">Home</a>
 											</li>
 											<li className="nav-item">
 												<a href="about.html" className="nav-link">About Us</a>

@@ -44,12 +44,12 @@ const Partners = () => {
                         data-interval={true}
                         onNextEnd={
                             (currentItem, nextItem) => {
-                                if (currentItem.index === 5) {
+                                if (currentItem.index === 7) {
                                     // we hit the last item, go to first item
                                     carouselRef.current.goTo(0)
                                 }
                                 // console.log(currentItem.index, "Current")
-                                // console.log(nextItem.index, "Next")
+                                // console.log(nextItem, "Next")
 
                             }
 
