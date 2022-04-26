@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import BreadCrumbs from '../components/BreadCrumbs'
 import Copyright from '../components/Copyright'
 import Footer from '../components/Footer'
+import GoToTop from '../components/GoToTop'
 
 //**importing Components
 import Loading from '../components/Loading'
@@ -14,7 +15,7 @@ const ServicesPage = () => {
     const [loading, setLoading] = useState(true)
     setTimeout(() => {
         setLoading(false)
-    }, 1000);
+    }, 350);
 
 
     return (<>
@@ -22,7 +23,7 @@ const ServicesPage = () => {
         <NavBar color={"white"} />
         <BreadCrumbs title={"Services"} />
         <Services />
-        <section className="services-section pt-0 pb-100">
+        <section className="services-section pt-0 pb-100 mt-n1">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-4 col-md-6">
@@ -67,6 +68,7 @@ const ServicesPage = () => {
         <Overview />
         <Footer />
         <Copyright />
+        <GoToTop />
     </>)
 }
 

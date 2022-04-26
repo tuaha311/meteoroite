@@ -48,7 +48,7 @@ const Testimonials = () => {
                                 transitionMs={3000}
                             >
                                 {/* <!-- testimonials item --> */}
-                                <div className="card" style={{ width: "25rem;", height: "30rem" }}>
+                                <div className="card" style={{ marginLeft: "px", marginRight: "5px", width: "25rem;", height: "30rem" }}>
                                     <div className="single-testimonial">
                                         <div className="rating-box">
                                             <ul>
@@ -74,7 +74,7 @@ const Testimonials = () => {
                                     </div>
                                 </div>
                                 {/* <!-- testimonials item --> */}
-                                <div className="card" style={{ width: "25rem;", height: "30rem" }}>
+                                <div className="card" style={{ marginLeft: "px", marginRight: "5px", width: "25rem;", height: "30rem" }}>
                                     <div className="single-testimonial">
                                         <div className="rating-box">
                                             <ul>
@@ -99,7 +99,7 @@ const Testimonials = () => {
                                         </div>
                                     </div></div>
                                 {/* <!-- testimonials item --> */}
-                                <div className="card" style={{ width: "25rem;", height: "30rem" }}>
+                                <div className="card" style={{ marginLeft: "px", marginRight: "5px", width: "25rem;", height: "30rem" }}>
                                     <div className="single-testimonial">
                                         <div className="rating-box">
                                             <ul>
@@ -125,7 +125,7 @@ const Testimonials = () => {
                                     </div>
                                 </div>
                                 {/* <!-- testimonials item --> */}
-                                <div className="card" style={{ width: "25rem;", height: "30rem" }}>
+                                <div className="card" style={{ marginLeft: "px", marginRight: "5px", width: "25rem;", height: "30rem" }}>
                                     <div className="single-testimonial">
                                         <div className="rating-box">
                                             <ul>
@@ -151,7 +151,7 @@ const Testimonials = () => {
                                     </div>
                                 </div>
                                 {/* <!-- testimonials item --> */}
-                                <div className="card" style={{ width: "25rem;", height: "30rem" }}>
+                                <div className="card" style={{ marginLeft: "px", marginRight: "5px", width: "25rem;", height: "30rem" }}>
 
                                     <div className="single-testimonial">
                                         <div className="rating-box">

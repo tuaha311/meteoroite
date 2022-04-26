@@ -27,6 +27,7 @@ import Blogs from './components/Blogs'
 import Partners from './components/Partners'
 import Footer from './components/Footer'
 import Copyright from './components/Copyright'
+import GoToTop from './components/GoToTop'
 
 export default function Home() {
 
@@ -77,12 +78,17 @@ export default function Home() {
 			{/* Partner Logo Section */}
 
 			<Partners />
+
 			{/* Footer Section */}
 			<Footer />
 
 			{/* Copyright */}
 
 			<Copyright />
+
+			{/* Go-to-Top Button */}
+
+			<GoToTop />
 		</>
 	)
 }

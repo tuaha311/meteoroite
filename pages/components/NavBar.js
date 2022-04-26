@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import Image from 'next/image'
 import '../../styles/responsive.module.css'
 import '../../styles/fontawesome.min.module.css'
-import "./navBar.module.css"
 import Link from 'next/link';
 
 const NavBar = (props) => {
@@ -18,7 +17,7 @@ const NavBar = (props) => {
 
 		return () => {
 			window.removeEventListener('scroll', handleScroll);
-			console.warn(scrollPosition);
+			// console.warn(scrollPosition);
 		};
 
 	}, []);
@@ -29,7 +28,7 @@ const NavBar = (props) => {
 					<div className="container">
 						<div className="techmax-responsive-menu">
 							<div className="logo">
-								<Link href="\">
+								<Link href="/">
 									<img src="/images/logo-black.png" className="white-logo" alt="logo" />
 									{/* <img src="/images/logo-black.png" className="black-logo" alt="logo" /> */}
 								</Link>
@@ -40,14 +39,14 @@ const NavBar = (props) => {
 				<div className="techmax-nav index-navber">
 					<div className="container">
 						<nav className="navbar navbar-expand-md navbar-light">
-							<a className="navbar-brand" href="\">
+							<Link className="navbar-brand" href="/">
 								<img src="/images/logo-black.png" className="white-logo" alt="logo" />
-								<img src="/images/logo-black.png" className="black-logo" alt="logo" />
-							</a>
+								{/* <img src="/images/logo-black.png" className="black-logo" alt="logo" /> */}
+							</Link>
 							<div className="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
 								<ul className="navbar-nav">
 									<li className="nav-item">
-										<a href="\" className="nav-link">Home</a>
+										<Link href="/" className="nav-link">Home</Link>
 									</li>
 									<li className="nav-item">
 										<a href="about.html" className="nav-link">About Us</a>
@@ -73,7 +72,7 @@ const NavBar = (props) => {
 												<a href="single-projects.html" className="nav-link">Projects Details</a>
 											</li>
 											<li className="nav-item">
-												<a href="pricing.html" className="nav-link">Pricing</a>
+												<Link href="pricing" className="nav-link">Pricing</Link>
 											</li>
 											<li className="nav-item">
 												<a href="faq.html" className="nav-link">FAQ</a>
@@ -120,10 +119,10 @@ const NavBar = (props) => {
 							<div className="container">
 								<div className="techmax-responsive-menu">
 									<div className="logo">
-										<a href="\">
+										<Link href="/">
 											<img src="/images/logo-black.png" className="white-logo" alt="logo" />
-											<img src="/images/logo-black.png" className="black-logo" alt="logo" />
-										</a>
+											{/* <img src="/images/logo-black.png" className="black-logo" alt="logo" /> */}
+										</Link>
 									</div>
 								</div>
 							</div>
@@ -131,14 +130,14 @@ const NavBar = (props) => {
 						<div className="techmax-nav index-navber">
 							<div className="container">
 								<nav className="navbar navbar-expand-md navbar-light">
-									<a className="navbar-brand" href="\">
+									<Link className="navbar-brand" href="/">
 										<img src="/images/logo-black.png" className="white-logo" alt="logo" />
-										<img src="/images/logo-black.png" className="black-logo" alt="logo" />
-									</a>
+										{/* <img src="/images/logo-black.png" className="black-logo" alt="logo" /> */}
+									</Link>
 									<div className="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
 										<ul className="navbar-nav">
 											<li className="nav-item">
-												<a href="\" className="nav-link">Home</a>
+												<Link href="/" className="nav-link">Home</Link>
 											</li>
 											<li className="nav-item">
 												<a href="about.html" className="nav-link">About Us</a>
@@ -147,7 +146,7 @@ const NavBar = (props) => {
 												<a href="#" className="nav-link">Services <i className="fas fa-chevron-down"></i></a>
 												<ul className="dropdown-menu">
 													<li className="nav-item">
-														<a href="services.html" className="nav-link">Services</a>
+														<Link href="services" className="nav-link">Services</Link>
 													</li>
 													<li className="nav-item">
 														<a href="single-services.html" className="nav-link">Services Details</a>
@@ -164,7 +163,7 @@ const NavBar = (props) => {
 														<a href="single-projects.html" className="nav-link">Projects Details</a>
 													</li>
 													<li className="nav-item">
-														<a href="pricing.html" className="nav-link">Pricing</a>
+														<Link href="pricing" className="nav-link">Pricing</Link>
 													</li>
 													<li className="nav-item">
 														<a href="faq.html" className="nav-link">FAQ</a>
