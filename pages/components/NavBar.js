@@ -86,7 +86,9 @@ const NavBar = (props) => {
                       <ul className="dropdown-menu">
                         <li className="nav-item">
                           <Link href="/services" className="nav-link" passHref>
-                            <StyledLink>Services</StyledLink>
+                            <StyledLink className="nav-link">
+                              Services
+                            </StyledLink>
                           </Link>
                         </li>
                         <li className="nav-item">
@@ -95,7 +97,9 @@ const NavBar = (props) => {
                             className="nav-link"
                             passHref
                           >
-                            <StyledLink>Services Details</StyledLink>
+                            <StyledLink className="nav-link">
+                              Services Details
+                            </StyledLink>
                           </Link>
                         </li>
                       </ul>
