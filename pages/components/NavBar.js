@@ -6,14 +6,12 @@ import Link from "next/link";
 import styled from "styled-components";
 
 const StyledLink = styled.a`
-  cursor: pointer;
-  text-decoration: none;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-  outline: 0 !important;
-  color: #505060;
-  padding: 10px 15px;
-  margin: 10px 15px;
+   {
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 10px 15px;
+  }
 `;
 const NavBar = (props) => {
   const [scrollPosition, setScrollPosition] = useState(0);

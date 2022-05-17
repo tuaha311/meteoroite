@@ -128,7 +128,8 @@ Link {
   -webkit-transition: 0.4s;
   transition: 0.4s;
   outline: 0 !important;
-  color: #505060;
+  color: #0b0b31;
+  text-decoration: none;
 }
 
 Link:hover {
@@ -4504,3 +4505,36 @@ blockquote::after,
   overflow: hidden;
   max-width: 500px;
 }
+
+.about-image .years-design {
+  position: absolute;
+  left: -75px;
+  bottom: 25px;
+  text-align: left;
+  padding: 20px 40px 20px 40px;
+  background: #ffffff;
+  border-bottom: 2px solid #ff9800;
+  -webkit-box-shadow: -1px 3px 20px 0px rgb(82 90 101 / 10%);
+  box-shadow: -1px 3px 20px 0px rgb(82 90 101 / 10%);
+}
+
+.about-image .years-design h2 {
+  font-size: 70px;
+  font-weight: 700;
+  background: url(../pages/img/slider-2.jpg) no-repeat;
+  background-position: 47% 53%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.1;
+}
+
+.techmax-nav .navbar .navbar-nav .nav-item .dropdown-menu li {
+  text-transform: capitalize;
+  padding: 10px 15px;
+  margin: 0px;
+  position: relative;
+  color: #505060;
+  font-size: 14px;
+  font-weight: 500;
+}
+
