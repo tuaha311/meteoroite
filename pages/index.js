@@ -28,6 +28,7 @@ import Partners from './components/Partners'
 import Footer from './components/Footer'
 import Copyright from './components/Copyright'
 import GoToTop from './components/GoToTop'
+import Bars from './components/Bars'
 
 export default function Home() {
 
@@ -46,6 +47,10 @@ export default function Home() {
 			{/* Home Area */}
 
 			<HomeComponent />
+
+			{/* Sliding Bars */}
+
+			<Bars />
 
 			{/* Service Section */}
 

@@ -19,7 +19,7 @@ function Blogs() {
                                 <div className="blog-content">
                                     <h3>
                                         <a href="single-blog.html">
-                                            The Biggest Trends in Technology We've Seen This Year
+                                            The Biggest Trends in Technology We have Seen This Year
                                         </a>
                                     </h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</p>
