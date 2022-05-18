@@ -43,11 +43,13 @@ const NavBar = (props) => {
                 <div className="logo">
                   <Link href="/" passHref>
                     <img
-                      src="/images/logo-black.png"
+                      src="/images/meteoroite_logo.png"
                       className="white-logo"
                       alt="logo"
+                      width="125px"
+                      height="35px"
                     />
-                    {/* <img src="/images/logo-black.png" className="black-logo" alt="logo" /> */}
+                    {/* <img src="/images/meteoroite_logo.png" className="black-logo" alt="logo" width="200px" height="50px" /> */}
                   </Link>
                 </div>
               </div>
@@ -58,11 +60,13 @@ const NavBar = (props) => {
               <nav className="navbar navbar-expand-md navbar-light">
                 <Link className="navbar-brand" href="/" passHref>
                   <img
-                    src="/images/logo-black.png"
+                    src="/images/meteoroite_logo.png"
                     className="white-logo"
                     alt="logo"
+                    width="125px"
+                    height="35px"
                   />
-                  {/* <img src="/images/logo-black.png" className="black-logo" alt="logo" /> */}
+                  {/* <img src="/images/meteoroite_logo.png" className="black-logo" alt="logo" width="200px" height="50px" /> */}
                 </Link>
                 <div
                   className="collapse navbar-collapse mean-menu"
@@ -208,11 +212,13 @@ const NavBar = (props) => {
                   <div className="logo">
                     <Link href="/" passHref>
                       <img
-                        src="/images/logo-black.png"
+                        src="/images/meteoroite_logo.png"
                         className="white-logo"
                         alt="logo"
+                        width="125px"
+                        height="35px"
                       />
-                      {/* <img src="/images/logo-black.png" className="black-logo" alt="logo" /> */}
+                      {/* <img src="/images/meteoroite_logo.png" className="black-logo" alt="logo" width="200px" height="50px" /> */}
                     </Link>
                   </div>
                 </div>
@@ -223,11 +229,13 @@ const NavBar = (props) => {
                 <nav className="navbar navbar-expand-md navbar-light">
                   <Link className="navbar-brand" href="/" passHref>
                     <img
-                      src="/images/logo-black.png"
+                      src="/images/meteoroite_logo.png"
                       className="white-logo"
                       alt="logo"
+                      width="125px"
+                      height="35px"
                     />
-                    {/* <img src="/images/logo-black.png" className="black-logo" alt="logo" /> */}
+                    {/* <img src="/images/meteoroite_logo.png" className="black-logo" alt="logo" width="200px" height="50px" /> */}
                   </Link>
                   <div
                     className="collapse navbar-collapse mean-menu"

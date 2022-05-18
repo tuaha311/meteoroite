@@ -18,9 +18,31 @@ const Testimonials = () => {
   const carouselRef = React.useRef(null);
   return (
     <section className="testimonial-section bg-grey section-padding">
+      <h6
+        className="section-title"
+        style={{
+          fontSize: "16px",
+          fontWeight: "700",
+          color: " #FF9800",
+          letterSpacing: "0.5px",
+          textTransform: "uppercase",
+        }}
+      >
+        Testimonial
+      </h6>
       <div className="container">
-        <div className="section-title">
-          <h2>Our Client Say</h2>
+        <div
+          className="section-title"
+          // style={{
+          //   fontSize: "40px",
+          //   color: "#0b0b31",
+          //   margin: "10px 0 0 0",
+          //   fontWeight: "800",
+          //   lineHeight: "1.4",
+          //   fontFamily: "'Dosis', sans-serif",
+          // }}
+        >
+          <h2>What Our Client Say</h2>
         </div>
         <div className="row">
           <div className="col-lg-12 col-md-12">
