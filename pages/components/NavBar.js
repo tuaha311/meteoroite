@@ -37,9 +37,9 @@ const NavBar = (props) => {
           className="navbar-area"
           style={{ height: "5rem", backgroundColor: `${props.color}` }}
         >
-          <div className="techmax-responsive-nav index-navber-responsive">
+          <div className="meteoroite-responsive-nav index-navber-responsive">
             <div className="container">
-              <div className="techmax-responsive-menu">
+              <div className="meteoroite-responsive-menu">
                 <div className="logo">
                   <Link href="/" passHref>
                     <img
@@ -53,7 +53,7 @@ const NavBar = (props) => {
               </div>
             </div>
           </div>
-          <div className="techmax-nav index-navber">
+          <div className="meteoroite-nav index-navber">
             <div className="container">
               <nav className="navbar navbar-expand-md navbar-light">
                 <Link className="navbar-brand" href="/" passHref>
@@ -202,9 +202,9 @@ const NavBar = (props) => {
           style={{ height: "5rem" }}
         >
           <div className="navbar-area">
-            <div className="techmax-responsive-nav index-navber-responsive">
+            <div className="meteoroite-responsive-nav index-navber-responsive">
               <div className="container">
-                <div className="techmax-responsive-menu">
+                <div className="meteoroite-responsive-menu">
                   <div className="logo">
                     <Link href="/" passHref>
                       <img
@@ -218,7 +218,7 @@ const NavBar = (props) => {
                 </div>
               </div>
             </div>
-            <div className="techmax-nav index-navber">
+            <div className="meteoroite-nav index-navber">
               <div className="container">
                 <nav className="navbar navbar-expand-md navbar-light">
                   <Link className="navbar-brand" href="/" passHref>

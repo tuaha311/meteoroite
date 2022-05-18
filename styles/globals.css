@@ -1,5 +1,5 @@
 /*****************************************************************
-    Template Name    : Techmax - IT Solutions and Technology Website Template
+    Template Name    : Meteoroite - IT Solutions and Technology Website Template
     Author           : Barakah Themes
     Version          : 1.0
     Created          : 2022
@@ -633,11 +633,11 @@ p:last-child {
  ** - 03 - Navbar Area CSS
  **************************************/
 
-.techmax-responsive-nav {
+.meteoroite-responsive-nav {
   display: none;
 }
 
-.techmax-nav {
+.meteoroite-nav {
   background-color: transparent;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -645,24 +645,24 @@ p:last-child {
   padding-left: 0;
 }
 
-.techmax-nav .navbar {
+.meteoroite-nav .navbar {
   padding-right: 0;
   padding-top: 0;
   padding-left: 0;
   padding-bottom: 0;
 }
 
-.techmax-nav .navbar ul {
+.meteoroite-nav .navbar ul {
   padding-left: 0;
   list-style-type: none;
   margin-bottom: 0;
 }
 
-.techmax-nav .navbar .navbar-nav {
+.meteoroite-nav .navbar .navbar-nav {
   margin: auto;
 }
 
-.techmax-nav .navbar .navbar-nav .nav-item {
+.meteoroite-nav .navbar .navbar-nav .nav-item {
   position: relative;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -670,10 +670,10 @@ p:last-child {
   padding-right: 0;
 }
 
-.techmax-nav.index-navber .navbar .navbar-nav .nav-item .Link {
+.meteoroite-nav.index-navber .navbar .navbar-nav .nav-item .Link {
   color: #555;
 }
-.techmax-nav .navbar .navbar-nav .nav-item .Link {
+.meteoroite-nav .navbar .navbar-nav .nav-item .Link {
   font-size: 15px;
   font-weight: 500;
   color: #fff;
@@ -686,10 +686,10 @@ p:last-child {
   margin-right: 15px;
 }
 
-.techmax-nav.index-navber .navbar .navbar-nav .nav-item a {
+.meteoroite-nav.index-navber .navbar .navbar-nav .nav-item a {
   color: #555;
 }
-.techmax-nav .navbar .navbar-nav .nav-item a {
+.meteoroite-nav .navbar .navbar-nav .nav-item a {
   font-size: 15px;
   font-weight: 500;
   color: #fff;
@@ -702,30 +702,30 @@ p:last-child {
   margin-right: 15px;
 }
 /*
-.techmax-nav .navbar .navbar-nav .nav-item a:hover, .techmax-nav .navbar .navbar-nav .nav-item a:focus, .techmax-nav .navbar .navbar-nav .nav-item a.active {
+.meteoroite-nav .navbar .navbar-nav .nav-item a:hover, .meteoroite-nav .navbar .navbar-nav .nav-item a:focus, .meteoroite-nav .navbar .navbar-nav .nav-item a.active {
 	color: #5e87eb;
 }
 */
-.techmax-nav .navbar .navbar-nav .nav-item a i {
+.meteoroite-nav .navbar .navbar-nav .nav-item a i {
   font-size: 10px;
   position: relative;
   top: -1px;
   margin-left: 1px;
 }
 
-.techmax-nav .navbar .navbar-nav .nav-item:last-child a {
+.meteoroite-nav .navbar .navbar-nav .nav-item:last-child a {
   margin-right: 0;
 }
 
-.techmax-nav .navbar .navbar-nav .nav-item:first-child a {
+.meteoroite-nav .navbar .navbar-nav .nav-item:first-child a {
   margin-left: 0;
 }
 /*
-.techmax-nav .navbar .navbar-nav .nav-item:hover a, .techmax-nav .navbar .navbar-nav .nav-item:focus a, .techmax-nav .navbar .navbar-nav .nav-item.active a {
+.meteoroite-nav .navbar .navbar-nav .nav-item:hover a, .meteoroite-nav .navbar .navbar-nav .nav-item:focus a, .meteoroite-nav .navbar .navbar-nav .nav-item.active a {
 	color: #5e87eb;
 }
 */
-.techmax-nav .navbar .navbar-nav .nav-item .dropdown-menu {
+.meteoroite-nav .navbar .navbar-nav .nav-item .dropdown-menu {
   -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
   background: #ffffff;
@@ -744,15 +744,15 @@ p:last-child {
   padding: 0px;
 }
 
-.techmax-nav .navbar .navbar-nav .nav-item .dropdown-menu li {
+.meteoroite-nav .navbar .navbar-nav .nav-item .dropdown-menu li {
   padding: 0;
   border-bottom: 1px solid #f1f1f1;
 }
-.techmax-nav .navbar .navbar-nav .nav-item .dropdown-menu li:last-child {
+.meteoroite-nav .navbar .navbar-nav .nav-item .dropdown-menu li:last-child {
   border-bottom: 0px solid transparent;
 }
 
-.techmax-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {
+.meteoroite-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {
   text-transform: capitalize;
   padding: 10px 15px;
   margin: 0;
@@ -762,22 +762,22 @@ p:last-child {
   font-weight: 500;
 }
 
-.techmax-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover,
-.techmax-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus,
-.techmax-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
+.meteoroite-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover,
+.meteoroite-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus,
+.meteoroite-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
   color: #505060;
   background: #f8f8f8;
   padding-left: 20px;
 }
 
-.techmax-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
+.meteoroite-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
   left: -245px;
   top: 0;
   opacity: 0;
   visibility: hidden;
 }
 
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -789,7 +789,7 @@ p:last-child {
   color: #696997;
 }
 
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -798,7 +798,7 @@ p:last-child {
   .dropdown-menu
   li
   a:hover,
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -807,7 +807,7 @@ p:last-child {
   .dropdown-menu
   li
   a:focus,
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -819,7 +819,7 @@ p:last-child {
   color: #5e87eb;
 }
 
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -834,7 +834,7 @@ p:last-child {
   visibility: hidden;
 }
 
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -849,7 +849,7 @@ p:last-child {
   text-transform: capitalize;
 }
 
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -860,7 +860,7 @@ p:last-child {
   .dropdown-menu
   li
   a:hover,
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -871,7 +871,7 @@ p:last-child {
   .dropdown-menu
   li
   a:focus,
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -885,7 +885,7 @@ p:last-child {
   color: #5e87eb;
 }
 
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -902,7 +902,7 @@ p:last-child {
   visibility: hidden;
 }
 
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -919,7 +919,7 @@ p:last-child {
   text-transform: capitalize;
 }
 
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -932,7 +932,7 @@ p:last-child {
   .dropdown-menu
   li
   a:hover,
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -945,7 +945,7 @@ p:last-child {
   .dropdown-menu
   li
   a:focus,
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -961,7 +961,7 @@ p:last-child {
   color: #5e87eb;
 }
 
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -980,7 +980,7 @@ p:last-child {
   visibility: hidden;
 }
 
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -999,7 +999,7 @@ p:last-child {
   text-transform: capitalize;
 }
 
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -1014,7 +1014,7 @@ p:last-child {
   .dropdown-menu
   li
   a:hover,
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -1029,7 +1029,7 @@ p:last-child {
   .dropdown-menu
   li
   a:focus,
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -1047,7 +1047,7 @@ p:last-child {
   color: #5e87eb;
 }
 
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -1068,7 +1068,7 @@ p:last-child {
   visibility: hidden;
 }
 
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -1089,7 +1089,7 @@ p:last-child {
   text-transform: capitalize;
 }
 
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -1106,7 +1106,7 @@ p:last-child {
   .dropdown-menu
   li
   a:hover,
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -1123,7 +1123,7 @@ p:last-child {
   .dropdown-menu
   li
   a:focus,
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -1143,7 +1143,7 @@ p:last-child {
   color: #5e87eb;
 }
 
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -1166,7 +1166,7 @@ p:last-child {
   visibility: hidden;
 }
 
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -1189,7 +1189,7 @@ p:last-child {
   text-transform: capitalize;
 }
 
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -1208,7 +1208,7 @@ p:last-child {
   .dropdown-menu
   li
   a:hover,
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -1227,7 +1227,7 @@ p:last-child {
   .dropdown-menu
   li
   a:focus,
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -1249,7 +1249,7 @@ p:last-child {
   color: #5e87eb;
 }
 
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -1269,7 +1269,7 @@ p:last-child {
   color: #5e87eb;
 }
 
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -1293,7 +1293,7 @@ p:last-child {
   transition: 0.4s;
 }
 
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -1311,7 +1311,7 @@ p:last-child {
   color: #5e87eb;
 }
 
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -1333,7 +1333,7 @@ p:last-child {
   transition: 0.4s;
 }
 
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -1349,7 +1349,7 @@ p:last-child {
   color: #5e87eb;
 }
 
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -1369,7 +1369,7 @@ p:last-child {
   transition: 0.4s;
 }
 
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -1383,7 +1383,7 @@ p:last-child {
   color: #5e87eb;
 }
 
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -1401,7 +1401,7 @@ p:last-child {
   transition: 0.4s;
 }
 
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -1413,7 +1413,7 @@ p:last-child {
   color: #5e87eb;
 }
 
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -1429,11 +1429,11 @@ p:last-child {
   transition: 0.4s;
 }
 
-.techmax-nav .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
+.meteoroite-nav .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
   color: #5e87eb;
 }
 
-.techmax-nav
+.meteoroite-nav
   .navbar
   .navbar-nav
   .nav-item
@@ -1447,7 +1447,7 @@ p:last-child {
   transition: 0.4s;
 }
 
-.techmax-nav .navbar .navbar-nav .nav-item:hover .dropdown-menu {
+.meteoroite-nav .navbar .navbar-nav .nav-item:hover .dropdown-menu {
   opacity: 1;
   visibility: visible;
   top: 100%;
@@ -1455,22 +1455,22 @@ p:last-child {
   transition: 0.4s;
 }
 
-.techmax-nav .navbar .other-option {
+.meteoroite-nav .navbar .other-option {
   margin-left: 0;
   margin-top: 5px;
 }
-.techmax-nav .navbar .other-option .default-btn {
+.meteoroite-nav .navbar .other-option .default-btn {
   padding: 8px 25px;
   font-size: 14px;
   font-weight: 500;
   box-shadow: 0 2px 15px rgb(123, 104, 238, 0.15);
 }
 
-.techmax-nav .navbar .other-option .default-btn.nav-btn-1 {
+.meteoroite-nav .navbar .other-option .default-btn.nav-btn-1 {
   margin-right: 15px;
 }
 
-.techmax-nav .black-logo {
+.meteoroite-nav .black-logo {
   display: none;
 }
 
@@ -1511,11 +1511,11 @@ p:last-child {
   color: #5e87eb;
 }
 
-.navbar-area.is-sticky .techmax-nav .navbar-brand .white-logo {
+.navbar-area.is-sticky .meteoroite-nav .navbar-brand .white-logo {
   display: none;
 }
 
-.navbar-area.is-sticky .techmax-nav .navbar-brand .black-logo {
+.navbar-area.is-sticky .meteoroite-nav .navbar-brand .black-logo {
   display: block;
 }
 
@@ -1541,20 +1541,23 @@ p:last-child {
     display: block;
   }
 
-  .techmax-responsive-nav {
+  .meteoroite-responsive-nav {
     display: block;
   }
 
-  .techmax-responsive-nav .techmax-responsive-menu {
+  .meteoroite-responsive-nav .meteoroite-responsive-menu {
     position: relative;
   }
 
-  .techmax-responsive-nav .techmax-responsive-menu.mean-container .mean-nav ul {
+  .meteoroite-responsive-nav
+    .meteoroite-responsive-menu.mean-container
+    .mean-nav
+    ul {
     font-size: 15px;
   }
 
-  .techmax-responsive-nav
-    .techmax-responsive-menu.mean-container
+  .meteoroite-responsive-nav
+    .meteoroite-responsive-menu.mean-container
     .mean-nav
     ul
     li
@@ -1562,8 +1565,8 @@ p:last-child {
     font-size: 15px;
   }
 
-  .techmax-responsive-nav
-    .techmax-responsive-menu.mean-container
+  .meteoroite-responsive-nav
+    .meteoroite-responsive-menu.mean-container
     .mean-nav
     ul
     li
@@ -1571,8 +1574,8 @@ p:last-child {
     color: #5e87eb;
   }
 
-  .techmax-responsive-nav
-    .techmax-responsive-menu.mean-container
+  .meteoroite-responsive-nav
+    .meteoroite-responsive-menu.mean-container
     .mean-nav
     ul
     li
@@ -1581,42 +1584,44 @@ p:last-child {
     font-size: 15px;
   }
 
-  .techmax-responsive-nav .techmax-responsive-menu.mean-container .navbar-nav {
+  .meteoroite-responsive-nav
+    .meteoroite-responsive-menu.mean-container
+    .navbar-nav {
     overflow-y: scroll;
     height: 300px;
     -webkit-box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
   }
 
-  .techmax-responsive-nav
-    .techmax-responsive-menu.mean-container
+  .meteoroite-responsive-nav
+    .meteoroite-responsive-menu.mean-container
     .others-options {
     display: none;
   }
 
-  .techmax-responsive-nav .mean-container a.meanmenu-reveal {
+  .meteoroite-responsive-nav .mean-container a.meanmenu-reveal {
     color: #505060;
   }
 
-  .techmax-responsive-nav .mean-container a.meanmenu-reveal span {
+  .meteoroite-responsive-nav .mean-container a.meanmenu-reveal span {
     background: #505060;
   }
 
-  .techmax-responsive-nav .logo {
+  .meteoroite-responsive-nav .logo {
     position: relative;
     width: 50%;
     z-index: 999;
   }
 
-  .techmax-responsive-nav .logo .white-logo {
+  .meteoroite-responsive-nav .logo .white-logo {
     display: block;
   }
 
-  .techmax-responsive-nav .logo .black-logo {
+  .meteoroite-responsive-nav .logo .black-logo {
     display: none;
   }
 
-  .techmax-nav {
+  .meteoroite-nav {
     display: none;
   }
 }
@@ -3915,21 +3920,21 @@ blockquote::after,
   color: #ffffff;
 }
 
-.widget-area .widget_techmax_posts_thumb {
+.widget-area .widget_meteoroite_posts_thumb {
   position: relative;
   overflow: hidden;
 }
 
-.widget-area .widget_techmax_posts_thumb .item {
+.widget-area .widget_meteoroite_posts_thumb .item {
   overflow: hidden;
   margin-bottom: 15px;
 }
 
-.widget-area .widget_techmax_posts_thumb .item:last-child {
+.widget-area .widget_meteoroite_posts_thumb .item:last-child {
   margin-bottom: 0;
 }
 
-.widget-area .widget_techmax_posts_thumb .item .thumb {
+.widget-area .widget_meteoroite_posts_thumb .item .thumb {
   float: left;
   height: 80px;
   overflow: hidden;
@@ -3938,7 +3943,7 @@ blockquote::after,
   margin-right: 15px;
 }
 
-.widget-area .widget_techmax_posts_thumb .item .thumb .fullimage {
+.widget-area .widget_meteoroite_posts_thumb .item .thumb .fullimage {
   width: 80px;
   height: 80px;
   display: inline-block;
@@ -3947,12 +3952,12 @@ blockquote::after,
   background-position: center center !important;
 }
 
-.widget-area .widget_techmax_posts_thumb .item .info {
+.widget-area .widget_meteoroite_posts_thumb .item .info {
   overflow: hidden;
   margin-top: 5px;
 }
 
-.widget-area .widget_techmax_posts_thumb .item .info span {
+.widget-area .widget_meteoroite_posts_thumb .item .info span {
   display: block;
   color: #5f5f5f;
   text-transform: capitalize;
@@ -3960,13 +3965,13 @@ blockquote::after,
   font-size: 14px;
 }
 
-.widget-area .widget_techmax_posts_thumb .item .info .title {
+.widget-area .widget_meteoroite_posts_thumb .item .info .title {
   margin-bottom: 0;
   line-height: 1.4;
   font-size: 16px;
 }
 
-.widget-area .widget_techmax_posts_thumb .item .info .title a {
+.widget-area .widget_meteoroite_posts_thumb .item .info .title a {
   display: inline-block;
 }
 
@@ -4528,7 +4533,7 @@ blockquote::after,
   line-height: 1.1;
 }
 
-.techmax-nav .navbar .navbar-nav .nav-item .dropdown-menu li {
+.meteoroite-nav .navbar .navbar-nav .nav-item .dropdown-menu li {
   text-transform: capitalize;
   padding: 10px 15px;
   margin: 0px;
@@ -4538,3 +4543,32 @@ blockquote::after,
   font-weight: 500;
 }
 
+.meteoroite-icon {
+  z-index: 1;
+  /* transform: rotateY(180deg); */
+  background-size: "cover";
+  padding: 10px;
+  background-origin: padding-box;
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  box-sizing: padding-box;
+  width: 30px;
+  filter: invert(0.4);
+}
+
+.meteoroite-icon:focus {
+  z-index: 1;
+  transform: rotateY(360deg);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  overflow: hidden;
+  background-size: "cover";
+  padding: 10px;
+  background-origin: padding-box;
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  box-sizing: padding-box;
+  width: 30px;
+  filter: invert(0.4);
+}

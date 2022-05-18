@@ -18,6 +18,12 @@ const Pricing = () => {
       <NavBar color={"white"} />
       <BreadCrumbs title={"About Us"} />
       <h1 style={{ textAlign: "center" }}>About Us Page Here</h1>
+      <div className="flip-container">
+        <div className="card">
+          <div className="front"></div>
+          <div className="back"></div>
+        </div>
+      </div>
       <Footer />
       <Copyright />
       <GoToTop />
