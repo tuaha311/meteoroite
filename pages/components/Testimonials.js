@@ -1,13 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Carousel from "react-elastic-carousel";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebook,
-  faTwitter,
-  faLinkedin,
-  faPinterest,
-  faUnsplash,
-} from "@fortawesome/free-brands-svg-icons";
 
 const Testimonials = () => {
   // const [display, setDisplay] = useState(false)

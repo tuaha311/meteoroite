@@ -201,6 +201,9 @@ p:last-child {
   z-index: -1;
   border-radius: 30px;
 }
+.default-btn a {
+  text-decoration: none;
+}
 
 .default-btn:hover,
 .default-btn:focus {
@@ -1464,6 +1467,7 @@ p:last-child {
   font-size: 14px;
   font-weight: 500;
   box-shadow: 0 2px 15px rgb(123, 104, 238, 0.15);
+  text-decoration: none;
 }
 
 .meteoroite-nav .navbar .other-option .default-btn.nav-btn-1 {
@@ -4316,6 +4320,7 @@ blockquote::after,
   color: #ececec;
   font-size: 15px;
   font-weight: 400;
+  text-decoration: none;
 }
 
 .single-footer-widget .footer-quick-links li a:hover {
@@ -4352,6 +4357,7 @@ blockquote::after,
   font-weight: 400;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  text-decoration: none;
 }
 
 .single-footer-widget .footer-info-contact span a:hover {
@@ -4678,4 +4684,19 @@ blockquote::after,
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.hover-item {
+  color: #3e57d0;
+}
+
+.hover-item:hover {
+  color: #fff;
+}
+
+.hover-underline {
+  text-decoration: none;
+}
+.hover-underline:hover {
+  text-decoration: underline;
 }

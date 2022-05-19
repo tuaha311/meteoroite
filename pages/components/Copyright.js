@@ -16,11 +16,23 @@ function Copyright() {
             <ul>
               <li>
                 {" "}
-                <a href="terms-condition.html">Terms & Conditions</a>
+                <a
+                  className="hover-underline"
+                  href="terms-condition"
+                  style={{ textDecoration: "none" }}
+                >
+                  Terms & Conditions
+                </a>
               </li>
               <li>
                 {" "}
-                <a href="privacy-policy.html">Privacy Policy</a>
+                <a
+                  className="hover-underline"
+                  href="privacy-policy"
+                  style={{ textDecoration: "none" }}
+                >
+                  Privacy Policy
+                </a>
               </li>
             </ul>
           </div>

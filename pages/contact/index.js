@@ -19,7 +19,7 @@ const Contact = () => {
   return (
     <>
       {loading ? <Loading /> : null}
-      <NavBar color={"#dad0f5"} />
+      <NavBar color={"#fff"} />
       <BreadCrumbs title={"Contact Us"} img={"contact.jpg"} />
 
       <section className="about-area bg-grey section-padding">
@@ -45,9 +45,13 @@ const Contact = () => {
                   304 NW St Homestead, Florida, Melrose Street, Water Mill, 76B
                   Overlook Drive Chester, PA 19013, Flemingsburg USA.
                 </p>
-                <a href="tel:0802235678">080 707 555-321</a>
+                <a className="hover-underline" href="tel:0802235678">
+                  080 707 555-321
+                </a>
                 <br />
-                <a href="mailto:demo@example.com">demo@example.com</a>
+                <a className="hover-underline" href="mailto:demo@example.com">
+                  demo@example.com
+                </a>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
@@ -57,9 +61,13 @@ const Contact = () => {
                   1540 Pecks Ridge Tilton Rd Flemingsburg, Kentucky(KY), 4104188
                   Fulton Street Blackwood, NJ 08012, London.
                 </p>
-                <a href="tel:0802235678">080 707 555-321</a>
+                <a className="hover-underline" href="tel:0802235678">
+                  080 707 555-321
+                </a>
                 <br />
-                <a href="mailto:demo@example.com">demo@example.com</a>
+                <a className="hover-underline" href="mailto:demo@example.com">
+                  demo@example.com
+                </a>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
@@ -69,9 +77,13 @@ const Contact = () => {
                   103 Richard Ave Ashville, Ohio, Water Mill,3468 16th Hwy
                   Pangburn, Arkansas(AR), Charolais Ashville, Virginia, Panama.
                 </p>
-                <a href="tel:0802235678">080 707 555-321</a>
+                <a className="hover-underline" href="tel:0802235678">
+                  080 707 555-321
+                </a>
                 <br />
-                <a href="mailto:demo@example.com">demo@example.com</a>
+                <a className="hover-underline" href="mailto:demo@example.com">
+                  demo@example.com
+                </a>
               </div>
             </div>
           </div>
