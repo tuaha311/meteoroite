@@ -37,21 +37,58 @@ const NavBar = (props) => {
           className="navbar-area"
           style={{ height: "5rem", backgroundColor: `${props.color}` }}
         >
-          <div className="meteoroite-responsive-nav index-navber-responsive">
+          <div
+            className="meteoroite-responsive-nav index-navber-responsive"
+            style={{ placeItems: "center" }}
+          >
             <div className="container">
               <div className="meteoroite-responsive-menu">
-                <div className="logo">
-                  <Link href="/" passHref>
-                    <img
-                      src="/images/meteoroite_logo.png"
-                      className="white-logo"
-                      alt="logo"
-                      width="125px"
-                      height="35px"
-                    />
-                    {/* <img src="/images/meteoroite_logo.png" className="black-logo" alt="logo" width="200px" height="50px" /> */}
-                  </Link>
-                </div>
+                <nav className="navbar navbar-expand-lg navbar-light bg-light rounded">
+                  <div className="container-fluid">
+                    <Link className="navbar-brand" href="/" passHref>
+                      <img
+                        src="/images/meteoroite_logo.png"
+                        className="white-logo"
+                        alt="logo"
+                        width="125px"
+                        height="35px"
+                      />
+                    </Link>
+                    <button
+                      className="navbar-toggler"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarNavAltMarkup"
+                      aria-controls="navbarNavAltMarkup"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation"
+                    >
+                      <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                      className="collapse navbar-collapse"
+                      id="navbarNavAltMarkup"
+                    >
+                      <div className="navbar-nav">
+                        <Link href="/" className="nav-link " passHref>
+                          <StyledLink>Home</StyledLink>
+                        </Link>
+
+                        <Link href="/about" className="nav-link" passHref>
+                          <StyledLink>About Us</StyledLink>
+                        </Link>
+
+                        <Link href="/services" className="nav-link" passHref>
+                          <StyledLink>Services</StyledLink>
+                        </Link>
+
+                        <Link href="/contact" className="nav-link" passHref>
+                          <StyledLink>Contact</StyledLink>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </nav>
               </div>
             </div>
           </div>
@@ -96,13 +133,9 @@ const NavBar = (props) => {
                           </Link>
                         </li>
                         <li className="nav-item">
-                          <Link
-                            href="/single-services"
-                            className="nav-link"
-                            passHref
-                          >
+                          <Link href="/pricing" className="nav-link" passHref>
                             <StyledLink className="nav-link">
-                              Services Details
+                              Pricing
                             </StyledLink>
                           </Link>
                         </li>
@@ -150,7 +183,7 @@ const NavBar = (props) => {
                         </li>
                       </ul>
                     </li> */}
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                       <a href="#" className="nav-link">
                         Blog <i className="fas fa-chevron-down"></i>
                       </a>
@@ -166,11 +199,11 @@ const NavBar = (props) => {
                           </a>
                         </li>
                       </ul>
-                    </li>
+                    </li> */}
                     <li className="nav-item">
-                      <a href="contact.html" className="nav-link">
-                        Contact
-                      </a>
+                      <Link href="/contact" className="nav-link" passHref>
+                        <StyledLink>Contact</StyledLink>
+                      </Link>
                     </li>
                   </ul>
                   {/* <div className="other-option">
@@ -203,7 +236,7 @@ const NavBar = (props) => {
       ) : (
         <div
           className="navbar fixed-top navbar-light bg-light navbar-area"
-          style={{ height: "5rem" }}
+          style={{ height: "5rem", placeItems: "center" }}
         >
           <div className="navbar-area">
             <div className="meteoroite-responsive-nav index-navber-responsive">
@@ -263,13 +296,17 @@ const NavBar = (props) => {
                               className="nav-link"
                               passHref
                             >
-                              <StyledLink>Services</StyledLink>
+                              <StyledLink className="nav-link">
+                                Services
+                              </StyledLink>
                             </Link>
                           </li>
                           <li className="nav-item">
-                            <a href="single-services.html" className="nav-link">
-                              Services Details
-                            </a>
+                            <Link href="/pricing" className="nav-link" passHref>
+                              <StyledLink className="nav-link">
+                                Pricing
+                              </StyledLink>
+                            </Link>
                           </li>
                         </ul>
                       </li>
@@ -315,7 +352,7 @@ const NavBar = (props) => {
                           </li>
                         </ul>
                       </li> */}
-                      <li className="nav-item">
+                      {/* <li className="nav-item">
                         <a href="#" className="nav-link">
                           Blog <i className="fas fa-chevron-down"></i>
                         </a>
@@ -331,11 +368,11 @@ const NavBar = (props) => {
                             </a>
                           </li>
                         </ul>
-                      </li>
+                      </li> */}
                       <li className="nav-item">
-                        <a href="contact.html" className="nav-link">
-                          Contact
-                        </a>
+                        <Link href="/contact" className="nav-link" passHref>
+                          <StyledLink>Contact</StyledLink>
+                        </Link>
                       </li>
                     </ul>
                     <div className="other-option">

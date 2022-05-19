@@ -1,5 +1,13 @@
 import React, { useState, useEffect } from "react";
 import Carousel from "react-elastic-carousel";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faTwitter,
+  faLinkedin,
+  faPinterest,
+  faUnsplash,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Testimonials = () => {
   // const [display, setDisplay] = useState(false)
@@ -81,19 +89,19 @@ const Testimonials = () => {
                     <div className="rating-box">
                       <ul>
                         <li>
-                          <i className="fa fa-star"></i>
+                          <i className="meteoroite-rating-star"></i>
                         </li>
                         <li>
-                          <i className="fa fa-star"></i>
+                          <i className="meteoroite-rating-star"></i>
                         </li>
                         <li>
-                          <i className="fa fa-star"></i>
+                          <i className="meteoroite-rating-star"></i>
                         </li>
                         <li>
-                          <i className="fa fa-star"></i>
+                          <i className="meteoroite-rating-star"></i>
                         </li>
                         <li>
-                          <i className="fa fa-star"></i>
+                          <i className="meteoroite-rating-star"></i>
                         </li>
                       </ul>
                     </div>
@@ -133,19 +141,19 @@ const Testimonials = () => {
                     <div className="rating-box">
                       <ul>
                         <li>
-                          <i className="fa fa-star"></i>
+                          <i className="meteoroite-rating-star"></i>
                         </li>
                         <li>
-                          <i className="fa fa-star"></i>
+                          <i className="meteoroite-rating-star"></i>
                         </li>
                         <li>
-                          <i className="fa fa-star"></i>
+                          <i className="meteoroite-rating-star"></i>
                         </li>
                         <li>
-                          <i className="fa fa-star"></i>
+                          <i className="meteoroite-rating-star"></i>
                         </li>
                         <li>
-                          <i className="fa fa-star"></i>
+                          <i className="meteoroite-rating-star"></i>
                         </li>
                       </ul>
                     </div>
@@ -185,71 +193,19 @@ const Testimonials = () => {
                     <div className="rating-box">
                       <ul>
                         <li>
-                          <i className="fa fa-star"></i>
+                          <i className="meteoroite-rating-star"></i>
                         </li>
                         <li>
-                          <i className="fa fa-star"></i>
+                          <i className="meteoroite-rating-star"></i>
                         </li>
                         <li>
-                          <i className="fa fa-star"></i>
+                          <i className="meteoroite-rating-star"></i>
                         </li>
                         <li>
-                          <i className="fa fa-star"></i>
+                          <i className="meteoroite-rating-star"></i>
                         </li>
                         <li>
-                          <i className="fa fa-star"></i>
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="testimonial-content">
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. enim ad minim veniam, quis nostrud
-                        exercitation.
-                      </p>
-                    </div>
-                    <div className="avatar">
-                      <img
-                        src="images/client/testimonial-3.jpg"
-                        alt="testimonial images"
-                      />
-                    </div>
-                    <div className="testimonial-bio">
-                      <div className="bio-info">
-                        <h3>Mario Houston</h3>
-                        <span>Social Worker</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* <!-- testimonials item --> */}
-                <div
-                  className="card"
-                  style={{
-                    marginLeft: "px",
-                    marginRight: "5px",
-                    width: "25rem",
-                    height: "30rem",
-                  }}
-                >
-                  <div className="single-testimonial">
-                    <div className="rating-box">
-                      <ul>
-                        <li>
-                          <i className="fa fa-star"></i>
-                        </li>
-                        <li>
-                          <i className="fa fa-star"></i>
-                        </li>
-                        <li>
-                          <i className="fa fa-star"></i>
-                        </li>
-                        <li>
-                          <i className="fa fa-star"></i>
-                        </li>
-                        <li>
-                          <i className="fa fa-star"></i>
+                          <i className="meteoroite-rating-star"></i>
                         </li>
                       </ul>
                     </div>
@@ -289,19 +245,71 @@ const Testimonials = () => {
                     <div className="rating-box">
                       <ul>
                         <li>
-                          <i className="fa fa-star"></i>
+                          <i className="meteoroite-rating-star"></i>
                         </li>
                         <li>
-                          <i className="fa fa-star"></i>
+                          <i className="meteoroite-rating-star"></i>
                         </li>
                         <li>
-                          <i className="fa fa-star"></i>
+                          <i className="meteoroite-rating-star"></i>
                         </li>
                         <li>
-                          <i className="fa fa-star"></i>
+                          <i className="meteoroite-rating-star"></i>
                         </li>
                         <li>
-                          <i className="fa fa-star"></i>
+                          <i className="meteoroite-rating-star"></i>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="testimonial-content">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. enim ad minim veniam, quis nostrud
+                        exercitation.
+                      </p>
+                    </div>
+                    <div className="avatar">
+                      <img
+                        src="images/client/testimonial-3.jpg"
+                        alt="testimonial images"
+                      />
+                    </div>
+                    <div className="testimonial-bio">
+                      <div className="bio-info">
+                        <h3>Mario Houston</h3>
+                        <span>Social Worker</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* <!-- testimonials item --> */}
+                <div
+                  className="card"
+                  style={{
+                    marginLeft: "px",
+                    marginRight: "5px",
+                    width: "25rem",
+                    height: "30rem",
+                  }}
+                >
+                  <div className="single-testimonial">
+                    <div className="rating-box">
+                      <ul>
+                        <li>
+                          <i className="meteoroite-rating-star"></i>
+                        </li>
+                        <li>
+                          <i className="meteoroite-rating-star"></i>
+                        </li>
+                        <li>
+                          <i className="meteoroite-rating-star"></i>
+                        </li>
+                        <li>
+                          <i className="meteoroite-rating-star"></i>
+                        </li>
+                        <li>
+                          <i className="meteoroite-rating-star"></i>
                         </li>
                       </ul>
                     </div>
