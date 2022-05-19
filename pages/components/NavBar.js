@@ -50,8 +50,8 @@ const NavBar = (props) => {
                         src="/images/meteoroite_logo.png"
                         className="white-logo"
                         alt="logo"
-                        width="125px"
-                        height="35px"
+                        width="230px"
+                        height="60px"
                       />
                     </Link>
                     <button
@@ -100,8 +100,8 @@ const NavBar = (props) => {
                     src="/images/meteoroite_logo.png"
                     className="white-logo"
                     alt="logo"
-                    width="125px"
-                    height="35px"
+                    width="230px"
+                    height="60px"
                   />
                   {/* <img src="/images/meteoroite_logo.png" className="black-logo" alt="logo" width="200px" height="50px" /> */}
                 </Link>
@@ -248,8 +248,8 @@ const NavBar = (props) => {
                         src="/images/meteoroite_logo.png"
                         className="white-logo"
                         alt="logo"
-                        width="125px"
-                        height="35px"
+                        width="230px"
+                        height="60px"
                       />
                       {/* <img src="/images/meteoroite_logo.png" className="black-logo" alt="logo" width="200px" height="50px" /> */}
                     </Link>
@@ -265,8 +265,8 @@ const NavBar = (props) => {
                       src="/images/meteoroite_logo.png"
                       className="white-logo"
                       alt="logo"
-                      width="125px"
-                      height="35px"
+                      width="230px"
+                      height="60px"
                     />
                     {/* <img src="/images/meteoroite_logo.png" className="black-logo" alt="logo" width="200px" height="50px" /> */}
                   </Link>
